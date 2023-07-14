@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Cabeçalho */
+header {
+  padding: 1rem;
+  margin: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo do cabeçalho */
+.logo {
+  height: 40px;
+}
+
+/* Botões do cabeçalho */
+.botao {
+  display: flex;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 8px;
+  background-color: rgba(10, 153, 254, 0.1);
+  font-size: 20px;
+  color: #0A99FE;
+  border: none;
+}
+
+button:hover {
+  background-color: #0A99FE;
+  color: white;
+}
+
+/* Seção de Paintings */
+.modelo-paintings {
+  padding: 2rem;
+  margin: auto;
+  overflow-x: auto; /* Barra de rolagem horizontal */
+  white-space: nowrap; /* Evita quebrar linhas */
+}
+
+/* Título da seção */
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #1B1B1B;
+  margin-bottom: 1rem;
+}
+
+/* Container dos cards */
+.container {
+  display: inline-block; /* Exibe os cards em linha */
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Card de Paintings e Action Figures */
+.card-paintings,
+.card-action-figure {
+  width: 207px;
+  height: 275px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.nome-robo {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #1B1B1B;
+}
+
+.preço-robo {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #868383;
+}
