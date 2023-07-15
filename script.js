@@ -119,11 +119,11 @@ function createCards(products, listClass) {
     image.alt = product.name;
 
     const name = document.createElement("h3");
-    name.classList.add("nome-robo");
+    name.classList.add("product-name");
     name.textContent = product.name;
 
     const price = document.createElement("span");
-    price.classList.add("preço-robo");
+    price.classList.add("product-price");
     price.textContent = product.price;
 
     cardContent.appendChild(image);

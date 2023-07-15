@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Cabeçalho */
+
 header {
   padding: 1rem;
   margin: 0.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #1b1b1b28;
 }
 
-/* Logo do cabeçalho */
+
 .logo {
   height: 40px;
 }
 
-/* Botões do cabeçalho */
+
 .botao {
   display: flex;
 }
@@ -36,15 +36,15 @@ button:hover {
   color: white;
 }
 
-/* Seção de Paintings */
+
 .modelo-paintings {
   padding: 2rem;
   margin: auto;
-  overflow-x: auto; /* Barra de rolagem horizontal */
-  white-space: nowrap; /* Evita quebrar linhas */
+  overflow-x: auto; 
+  white-space: nowrap; 
 }
 
-/* Título da seção */
+
 h2 {
   font-size: 20px;
   font-weight: normal;
@@ -53,14 +53,14 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Container dos cards */
+
 .container {
-  display: inline-block; /* Exibe os cards em linha */
+  display: inline-block; 
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
-/* Card de Paintings e Action Figures */
+
 .card-paintings,
 .card-action-figure {
   width: 207px;
@@ -76,20 +76,20 @@ h2 {
 }
 
 .card-img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 60%;
   border-radius: 8px;
   margin-bottom: 1rem;
 }
 
-.nome-robo {
+.product-name {
   font-size: 20px;
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
   color: #1B1B1B;
 }
 
-.preço-robo {
+.product-price {
   font-size: 16px;
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
